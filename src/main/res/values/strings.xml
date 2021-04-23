@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="number_guessing_game">NUMBER GUESSING GAME</string>
+    <string name="play">PLAY</string>
+    <string name="hall_of_fame">HALL OF FAME</string>
+    <string name="an_unknown_number_lies_bewteen_0_100">AN UNKNOWN NUMBER LIES BEWTEEN 0-100</string>
+    <string name="can_you_guess_it_in_5_moves_or_less">CAN YOU GUESS IT IN 5 MOVES OR LESS ?</string>
+    <string name="enter_your_guess">ENTER YOUR GUESS</string>
+    <string name="moves_left_5">MOVES LEFT : 5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conratulations">CONRATULATIONS !</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="oops_ran_out_of_moves">OOPS ! Ran Out Of Moves</string>
+    <string name="the_hall_of_fame_lists_the_top_10_players_based_on_the_time_it_took_them_to_find_the_number">THE HALL OF FAME , LISTS THE TOP 10 PLAYERS ,BASED ON THE TIME IT TOOK THEM TO FIND THE NUMBER</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="moves_format">MOVES LEFT: %d</string>
+    <string name="enter_your_guess_here">ENTER YOUR GUESS HERE</string>
+    <string name="you_guessed_it">YOU GUESSED IT</string>
+    <string name="in_moves">IN 6 MOVES</string>
+    <string name="seconds">SECONDS</string>
+    <string name="add_name_to_hof">ADD NAME TO HOF ?</string>
+    <string name="add_to_hof">ADD TO HOF</string>
+    <string name="clear">clear</string>
+</resources>
