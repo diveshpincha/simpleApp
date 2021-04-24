@@ -72,5 +72,9 @@
         android:id="@+id/hofFragment"
         android:name="com.example.myapplication.hof.HofFragment"
         android:label="hof_fragment"
-        tools:layout="@layout/hof_fragment" />
+        tools:layout="@layout/hof_fragment" >
+        <action
+            android:id="@+id/action_hofFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
 </navigation>

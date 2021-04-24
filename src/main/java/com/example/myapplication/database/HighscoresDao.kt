@@ -13,6 +13,6 @@ interface HighscoresDao {
     @Query("DELETE FROM hof_table")
     fun clear()
 
-    @Query("select * from hof_table order by milli_time desc limit 10")
+    @Query("select * from hof_table order by milli_time asc limit 10")
     fun display(): LiveData<List<HighScores>>
 }

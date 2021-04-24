@@ -5,6 +5,7 @@ import android.os.SystemClock
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -48,15 +49,16 @@ class WonFragment : Fragment() {
         val score=HighScores()
 
         score.dis_time=binding.timerr.text.toString()
-        score.name= binding.editTextTextPersonName.text.toString()
         score.time=args?.timeTaken!!
         score.moves=args?.movesUsed!!
 
 
         binding.addToDb.setOnClickListener{
+            score.name= binding.editTextTextPersonName.text.toString()
             wonViewModel.onSubmit(score)
             binding.addToDb.setVisibility(View.GONE)
             binding.editTextTextPersonName.setVisibility(View.GONE)
+            Toast.makeText(this.context,"ADDED SUCCESSFULLY",Toast.LENGTH_SHORT).show()
         }
 
         return  binding.root
